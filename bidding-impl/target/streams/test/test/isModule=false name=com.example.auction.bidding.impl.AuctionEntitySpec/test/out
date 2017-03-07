@@ -1,0 +1,30 @@
+[0m[[0minfo[0m] [0m[32mAuctionEntitySpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe auction entity[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow starting an auction[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a first bid under the reserve[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a first bid with zero reserve[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a first bid equal to the reserve[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a bid under the current maximum[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a bid equal to the current maximum[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a bid over the current maximum[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a bid less than the increment over the current maximum[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject a bid less than the current bid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject a bid less than the incement over the current bid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should accept a bid equal to the incement over the current bid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject a bid from the seller[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow the current winning bidder to lower their maximum bid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow the current winning bidder to lower their maximum bid to the current price[0m[0m
+[0m[[0minfo[0m] [0m[32m- should prevent the current from lowering their maximum bid to below the current price[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow the current winning bidder to raise their bid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should prevent bidding after the auctions end time is up[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow the auction to be finished[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow cancelling the auction[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow cancelling the auction before started[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow cancelling the auction after it's finished[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle start auction idempotently[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle finish auction idempotently[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle cancel auction idempotently[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not allow a bid to be placed before the auction has started[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not allow a bid to be placed when the auction is complete[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not allow a bid to be placed when the auction has been cancelled[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow getting the auction state[0m[0m
